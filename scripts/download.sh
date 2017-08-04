@@ -10,7 +10,7 @@ tar -xvzf ${FILENAME}
 
 cp -r ${FILENAME_ROOT}/* .
 
-ln -sf "${FILENAME_ROOT}/bin/bitcoind"
+ln -sf "${FILENAME_ROOT}/bin/bitcoind" /usr/bin/bitcoind
 
 rm ${FILENAME}
 rm -rf ${FILENAME_ROOT}
