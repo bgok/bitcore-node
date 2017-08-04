@@ -31,8 +31,8 @@
     "bitcoind": "./bin/bitcoind"
   },
   "scripts": {
-    "preinstall": "",
-    "verify": "",
+    "preinstall": "./scripts/download.sh",
+    "verify": "./scripts/download.sh --skip-bitcoin-download --verify-bitcoin-download",
     "test": "mocha -R spec --recursive",
     "regtest": "./scripts/regtest.sh",
     "jshint": "jshint --reporter=node_modules/jshint-stylish ./lib",
