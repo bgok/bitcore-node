@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp /usr/bin/bitcoind "${FILENAME_ROOT}/bin/bitcoind"
+cp /usr/bin/bitcoind ./bin/bitcoind
